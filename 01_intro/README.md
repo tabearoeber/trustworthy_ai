@@ -68,12 +68,12 @@ source trustworthy_ai_venv/bin/activate
 
 pip install gurobipy numpy==1.24 scikit-learn==1.1.2 pandas matplotlib cvxpy ipykernel
 
-pip install cvxpy (you may have to install cmake first)
-
 python -m ipykernel install --user --name=trustworthy_ai_venv
 
 deactivate
 ```
+
+If you run into an error with installing `cvxpy`, you may have to install `cmake` first (using `pip install cmake`)
 
 ## Getting started (finally)
 
