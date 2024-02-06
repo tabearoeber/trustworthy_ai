@@ -37,7 +37,7 @@ Head to [Github](https://github.com) and create an account.
 ### installations
 
 ***Python*** – 
-Make sure to have a recent version of Python installed on your machine. Some of the newer versions may not (yet) be compatible with some of the packges. I am using [![Python 3.9.7](https://img.shields.io/badge/Python-3.9.7-green.svg)](https://www.python.org/downloads/release/python-383/)
+Make sure to have a recent version of Python installed on your machine. Some of the newer versions may not (yet) be compatible with some of the packges. I am using [![Python 3.9.7](https://img.shields.io/badge/Python-3.9.7-green.svg)](https://www.python.org/downloads/release/python-397/)
 
 ***Gurobi*** –
 You will need to have Gurobi Optimizer installed on your machine to run some of the methods. They provide a free academic licence. Please see their [website](https://www.gurobi.com/downloads/) for more information and complete instructions for downloading Gurobi Optimizer and activating the licence.
