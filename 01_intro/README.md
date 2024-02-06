@@ -14,6 +14,13 @@ In this week we will solely focus on setting up your machine. You may skip some 
 
 If you'd like to know more, I can recommend this [book](https://git-scm.com/book/en/v2).
 
+<p align="center">
+   <img src="../img/github-process-english.png" width="700">
+</p>
+<p align="center">
+    <em>Figure: Github workflow, taken from <a href="https://livablesoftware.com/development-process-in-github-basic-infographic/">here</a>.</em>
+</p>
+
 ### Installing `Git`
 
 **Installing on Mac**: Easiest is to first download and install [Github Desktop](https://desktop.github.com), which provides a nice GUI. Once installed, you can go to `GitHub Desktop > Install Command Line Tool`. 
