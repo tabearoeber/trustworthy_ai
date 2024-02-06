@@ -14,7 +14,7 @@ source trustworthy_ai_venv/bin/activate
 git clone https://github.com/sibirbil/RuleDiscovery.git
 
 # for General Additive Models (GAMs), Explainable Boosting Machine (EBM), and Decision Lists
-pip install interpret statsmodels skope-rules
+pip install interpret statsmodels skope-rules greenlet==1.1.3 gevent==21.8.0 pygam
 
 # for Sparse Decision Trees
 pip install graphviz cython
