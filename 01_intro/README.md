@@ -25,7 +25,7 @@ If you'd like to know more, I can recommend this [book](https://git-scm.com/book
 
 **Installing on Mac**: Easiest is to first download and install [Github Desktop](https://desktop.github.com), which provides a nice GUI. Once installed, you can go to `GitHub Desktop > Install Command Line Tool`. 
 
-**Installing on Windows**: First, download and install Git for Windows. Then, download and install Github Desktop. 
+**Installing on Windows**: First, download and install [Git for Windows](https://gitforwindows.org). Then, download and install [Github Desktop](https://desktop.github.com). 
 
 ### `Github` account
 
