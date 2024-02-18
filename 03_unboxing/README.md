@@ -11,7 +11,7 @@ cd trustworthy_ai
 source trustworthy_ai_venv/bin/activate
 
 # install packages
-pip install lime shap torch grad-cam
+pip install lime shap torch torchvision grad-cam
 
 # close environment
 deactivate
