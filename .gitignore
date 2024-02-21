@@ -5,6 +5,7 @@ pydl8.5-lbguess/
 datasets/fashion_mnist/
 robust-CE/
 CE-OCL/
+datasets/cifar-10-batches-py/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
