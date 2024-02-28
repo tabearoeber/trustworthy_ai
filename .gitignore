@@ -6,6 +6,8 @@ datasets/fashion_mnist/
 robust-CE/
 CE-OCL/
 datasets/cifar-10-batches-py/
+datasets/feynman_equations/
+04_otherXAI/results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
