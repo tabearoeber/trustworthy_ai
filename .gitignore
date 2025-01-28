@@ -138,9 +138,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-trustworthy_ai_venv/
-test_venv/
 *venv/
+*venv*/
 
 # Spyder project settings
 .spyderproject
