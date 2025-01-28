@@ -3,6 +3,7 @@ solutions/
 RuleDiscovery/
 pydl8.5-lbguess/
 datasets/fashion_mnist/
+*/datasets/fashion_mnist/
 robust-CE/
 CE-OCL/
 datasets/cifar-10-batches-py/
