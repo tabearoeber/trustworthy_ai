@@ -1,0 +1,69 @@
+digraph {
+	node [shape=box]
+	size=10
+	140643847428224 [label=Sex_1]
+	node [shape=box]
+	size=10
+	140643004386240 [label=Fare_2]
+	node [shape=box]
+	size=10
+	140642735111936 [label=Embarked_2]
+	node [shape=box]
+	size=10
+	140643004943424 [label="Class 1
+Error: 0.001"]
+	node [shape=box]
+	size=10
+	140643004940416 [label="Class 0
+Error: 0.001"]
+	140642735111936 -> 140643004943424 [label=True]
+	140642735111936 -> 140643004940416 [label=False]
+	node [shape=box]
+	size=10
+	140643004943616 [label=Fare_5]
+	node [shape=box]
+	size=10
+	140643004944000 [label="Class 1
+Error: 0.000"]
+	node [shape=box]
+	size=10
+	140643005082304 [label="Class 0
+Error: 0.111"]
+	140643004943616 -> 140643004944000 [label=True]
+	140643004943616 -> 140643005082304 [label=False]
+	140643004386240 -> 140642735111936 [label=True]
+	140643004386240 -> 140643004943616 [label=False]
+	node [shape=box]
+	size=10
+	140643005081280 [label=Embarked_2]
+	node [shape=box]
+	size=10
+	140643004943872 [label=Pclass_2]
+	node [shape=box]
+	size=10
+	140643005082624 [label="Class 0
+Error: 0.038"]
+	node [shape=box]
+	size=10
+	140644075322368 [label="Class 1
+Error: 0.010"]
+	140643004943872 -> 140643005082624 [label=True]
+	140643004943872 -> 140644075322368 [label=False]
+	node [shape=box]
+	size=10
+	140644075323008 [label=Parch_5]
+	node [shape=box]
+	size=10
+	140644075322560 [label="Class 0
+Error: 0.000"]
+	node [shape=box]
+	size=10
+	140644075320000 [label="Class 1
+Error: 0.020"]
+	140644075323008 -> 140644075322560 [label=True]
+	140644075323008 -> 140644075320000 [label=False]
+	140643005081280 -> 140643004943872 [label=True]
+	140643005081280 -> 140644075323008 [label=False]
+	140643847428224 -> 140643004386240 [label=True]
+	140643847428224 -> 140643005081280 [label=False]
+}
