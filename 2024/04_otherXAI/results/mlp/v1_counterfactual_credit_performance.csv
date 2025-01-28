@@ -1,0 +1,2 @@
+save_path,seed,cv_folds,task,parameters,best_params,valid_score,train_score,test_score,auc_train,auc_test,outcome,alg
+results/mlp/v1_counterfactual_credit_model.csv,0,5,binary,"{'hidden_layer_sizes': [(10,), (20,), (50,), (100,)]}","{'hidden_layer_sizes': (20,)}",0.6921316964285715,1.0,0.7042857142857142,,,counterfactual_credit,mlp

@@ -1,0 +1,2 @@
+save_path,seed,cv_folds,task,parameters,best_params,valid_score,train_score,test_score,auc_train,auc_test,outcome,alg
+results/svm/v1_counterfactual_credit_model.csv,0,5,binary,"{'C': [0.1, 1, 10, 100]}",{'C': 0.1},0.7659598214285714,0.8246354166666667,0.8285714285714286,,,counterfactual_credit,svm
