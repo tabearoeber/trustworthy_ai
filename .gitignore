@@ -13,6 +13,7 @@ datasets/feynman_equations/
 
 # zip files
 *.zip
+*.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
