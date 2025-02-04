@@ -1,2 +1,0 @@
-save_path,seed,cv_folds,task,parameters,best_params,valid_score,train_score,test_score,auc_train,auc_test,outcome,alg
-results/rf/v1_counterfactual_credit_model.csv,0,5,binary,"{'n_estimators': [10, 25], 'max_features': ['auto'], 'max_depth': [2, 3, 4]}","{'max_depth': 4, 'max_features': 'auto', 'n_estimators': 25}",0.7577008928571429,0.8613020833333334,0.8267857142857143,,,counterfactual_credit,rf
