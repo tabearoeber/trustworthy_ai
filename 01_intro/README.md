@@ -37,16 +37,16 @@ Head to [Github](https://github.com) and create an account.
 ### installations
 
 ***Python*** – 
-Make sure to have a recent version of Python installed on your machine. Some of the newer versions may not (yet) be compatible with some of the packges. I am using [![Python 3.9.7](https://img.shields.io/badge/Python-3.9.7-green.svg)](https://www.python.org/downloads/release/python-397/)
+Make sure to have a recent version of Python installed on your machine. Some of the newer versions may not (yet) be compatible with some of the packges.
 
 ***Gurobi*** –
 You will need to have Gurobi Optimizer installed on your machine to run some of the methods. They provide a free academic licence. Please see their [website](https://www.gurobi.com/downloads/) for more information and complete instructions for downloading Gurobi Optimizer and activating the licence.
 - Create a user account with your **student email**.
 - Download a version of Gurobi Optimizer here: https://www.gurobi.com/downloads/gurobi-software/
-- While connected to eduroam or having a VPN connection to campus, request a free academic license. The Academic Named-User License is a good fit for our course – it is for a single person, for a single machine. Follow the instructions to activate the license.
+- While connected to eduroam or having a VPN connection to campus, request a free academic license. The **Academic Named-User License** is a good fit for our course – it is for a single person, for a single machine. Follow the instructions to activate the license.
 
-***Anaconda*** – 
-We'll run jupyter notebooks using Anaconda. You can download Anaconda here: https://www.anaconda.com/download 
+***Jupyter notebooks*** – 
+We'll mainly work in Jupyter notebooks. You could install Anaconda to run Jupyter notebooks (download here: https://www.anaconda.com/download). You may also use another GUI, like VSCode.
 
 ### Setting up a virtual environment and getting started
 
@@ -61,24 +61,41 @@ We'll run jupyter notebooks using Anaconda. You can download Anaconda here: http
 - Navigate to the folder with the repo by typing `cd directory_name`. The directory name should end with `../trustworthy_ai`
 - Then, copy/paste and run each of the commands below in the terminal/command line tool:
 
+**MacOS**
 ```
-cd ...
+cd <path_to_repo>
 
 python3.9 -m venv test_venv
 
 source test_venv/bin/activate
 
-pip install gurobipy numpy==1.24 scikit-learn==1.1.2 pandas matplotlib cvxpy ipykernel
+pip install numpy==1.24 scikit-learn==1.1.2 pandas ipykernel
 
 python -m ipykernel install --user --name=test_venv
 
 deactivate
 ```
 
-If you run into an error with installing `cvxpy`, you may have to install `cmake` first (using `pip install cmake`)
-
-You can also create a virtual environment using `conda`:
+**Windows (cmd)**
 ```
+cd <path_to_repo>
+
+python3.9 -m venv test_venv
+
+test_venv\Scripts\activate
+
+pip install numpy==1.24 scikit-learn==1.1.2 pandas ipykernel
+
+python -m ipykernel install --user --name=test_venv
+
+deactivate
+```
+
+
+You can also create a virtual environment using `conda` (you need to have Anaconda installed for this):
+```
+cd <path_to_repo>
+
 conda create --name test_venv python=3.10 # specifcy python version you want
 
 conda activate test_venv
