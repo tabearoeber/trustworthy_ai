@@ -27,6 +27,7 @@ part1_venv\Scripts\activate
 alternatively try: 
 ```
 py -3.9 -m venv part1_venv
+part1_venv\Scripts\activate
 ```
 
 #### Step 3: Install required packages
@@ -67,6 +68,12 @@ source part2_venv/bin/activate
 **Windows (cmd)**
 ```
 python3.11 -m venv part2_venv
+part2_venv\Scripts\activate
+```
+
+alternatively try: 
+```
+py -3.11 -m venv part2_venv
 part2_venv\Scripts\activate
 ```
 
