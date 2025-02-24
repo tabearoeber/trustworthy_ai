@@ -1,0 +1,8 @@
+numpy<=1.26
+Pyomo==6.2
+pandas
+scikit-learn
+gurobipy==9.1.2
+matplotlib
+opticl
+gplearn
