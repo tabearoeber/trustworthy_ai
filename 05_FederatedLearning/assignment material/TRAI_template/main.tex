@@ -1,0 +1,161 @@
+\documentclass[twocolumn]{article}
+\usepackage{arxiv}
+
+\usepackage{multicol}
+\usepackage{xcolor,colortbl}
+\usepackage{multirow}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{natbib} 
+
+\title{Trustworthy AI Case Study}
+
+\author{
+ Firstname1 Lastname1 \& Firstname2 Lastname2\\
+  Amsterdam Business School \\
+  University of Amsterdam\\
+  1018TV Amsterdam, the Netherlands\\
+  \texttt{email@student.uva.nl} and \texttt{email2@student.uva.nl}\\
+  %% \AND
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+}
+
+
+
+
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+Here goes a short abstract.
+\end{abstract}
+
+\section{Introduction}
+
+This section of the report should consist of a short introduction to trustworthy AI and the context of your dataset. Also provide an overview of what will be discussed in the following. This report should be written in the style of a conference paper, meaning formal language and correct citations. Here are examples on how to cite: \cite{barredo-arrieta2020_review} provide an overview of XAI methods. Many more review reports on XAI have been written in recent years \citep[\textit{e.g.,}][]{ali2023_review, guidotti2018_review}
+
+
+\section{Methods for explainable and interpretable AI}
+
+This section is reserved for an overview and explanation of the three methods that you chose. Each method will be in a separate sub-section where you explain the core essentials and the main steps of each method.
+
+You should choose three different methods. You should choose at least one glass-box model and at least one post-hoc explanation method. Two methods should be taken from the course material, \textit{i.e.,} you should choose at least two methods that we discussed in class. The third method you may choose freely and try out other methods not discussed in class, however this is not a requirement.
+
+Throughout the entire report you're free to add subsections or paragraphs as you see fit. 
+
+\subsection{Method 1}
+
+Discuss your chosen method 1. You may rename this section according to the method you chose. Make sure to also cite the relevant material for each method. 
+
+\subsection{Method 2}
+
+Discuss your chosen method 2. You may rename this section according to the method you chose. Make sure to also cite the relevant material for each method. 
+
+\subsection{Method 3}
+
+Discuss your chosen method 3. You may rename this section according to the method you chose. Make sure to also cite the relevant material for each method. 
+
+
+\section{Modeling}
+
+This section should contain everything related to the modeling stage.
+
+\subsection{Data description and processing}
+
+Provide a description of the dataset. Also include summary statistics and processing steps you take.
+
+\subsection{Black-box model}
+
+Report on your choice of black-box model you fit to the data. Also report any considerations and steps in the modeling process. Remember to also include an assessment and evaluation of the performance of your chosen model (you may do that here or in Section \ref{sec:results}..
+
+\subsection{Modeling choices for explainability methods}
+
+If the methods you chose require any parameters you should specify your choice for these. 
+
+\section{Results}\label{sec:results}
+
+While the previous section was reserved for an overview and general explanation of each method, this section will report the results of each method. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/placeholder.jpg}
+    \caption{Caption}
+    \label{fig:placeholder1}
+\end{figure}
+
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.55\linewidth]{images/placeholder.jpg}
+    \caption{Caption}
+    \label{fig:placeholder2}
+\end{figure*}
+
+\subsection{Results method 1}
+
+For example, you could provide a visualisation of some sort. In Figure \ref{fig:placeholder1} I am showing a placeholder image as example.
+
+
+\subsection{Results method 2}
+
+In the results section, results are reported and described. This means that you provide a description of the results and what certain plots show. You can also interpret the results of each method \textit{in isolation}. That means that there is no comparison (yet) of the methods. That will come in Section \ref{sec:discussion}.
+
+
+\subsection{Results method 3}
+
+To include an image that spans the entire page like Figure \ref{fig:placeholder2}, you can use \verb|\begin{figure*}| instead of \verb|\begin{figure}|.
+
+Similarly, for tables you can use \verb|\begin{table}| for a table that will be fit into one column or \verb|\begin{table*}| for a wide table spanning both columns.
+
+
+
+\section{Discussion}\label{sec:discussion}
+
+This section is reserved for a discussion of the different methods and their outputs. Evaluate and compare each method and its results you obtained for your dataset. Which method is useful for your dataset? Also provide a general discussion of the pro's and con's of each method and possible use cases they would fit to. Discuss general points about the methods you chose and make it concrete using your dataset (or vice versa -- start with concrete results of your dataset and then move toward a general discussion).
+
+\paragraph{Paragraph.} You may want to use \verb|\paragraph{}| to create in-line headings for paragraphs. \\
+
+\noindent
+End your report with a discussion of the socio-ethical context of trustworthy AI and your specific dataset. 
+
+\section{Conclusion}
+
+Provide a summarizing paragraph of this report.
+
+
+% \bibliographystyle{apalike}
+\bibliographystyle{abbrvnat}
+\bibliography{main}
+
+\appendix
+
+\section{Additional information}
+
+The appendix comes after the references and contains additional material that may support discussions in your report but are not essential for the report to be complete. Anything that is essential should go in the main part of the report.
+
+\end{document}
